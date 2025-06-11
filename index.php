@@ -26,7 +26,7 @@
             </div>
             <?php } ?>
 
-            <h4 class="ui top attached block header"><i class="ui info icon"></i><?php echo $MSG_NEWS;?></h4>
+            <!-- <h4 class="ui top attached block header"><i class="ui info icon"></i><?php echo $MSG_NEWS;?></h4>
             <div class="ui bottom attached segment">
                 <table class="ui very basic table">
                     <thead>
@@ -52,7 +52,7 @@
                         ?>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
 <?php
 /* 本月之星  */
 $month_id=mysql_query_cache("select solution_id from solution where  in_date<date_add(curdate(),interval -day(curdate())+1 DAY) order by solution_id desc limit 1;");
