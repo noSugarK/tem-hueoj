@@ -15,7 +15,8 @@
 
   <div class="content">
     <div class="header" style="margin-bottom: 10px; " ondblclick='$(this).load("refresh-privilege.php")'>
-      <?php echo $view_errors;?>
+      <!--页面错误信息显示，如果需要完整提示可以打开这里-->
+      <!--?php echo $view_errors;?-->
       <?php if ($OJ_LANG=="cn" && isset($spj[0][0]) && $spj[0][0]!=2 )  echo "<br>如果你是管理员，希望解决这个问题，请打开
                         <a href='https://github.com/noSugarK/HUEOJ/blob/main/常见问题.md' target='_blank'>HUEOJ常见问题</a>，按Ctrl+F查找上面错误信息中的关键词。<br>\n
                         如果你不是管理员，可以联系管理员$OJ_ADMIN 。";?>
