@@ -22,7 +22,7 @@
     </style>
     <?php include(dirname(__FILE__)."/js.php");?>
     <div class="footer">
-        <div class="ui center aligned container" title="如果你想移除这个信息，请编辑template/syzoj/footer.php" >
+        <div class="ui center aligned container" title="如果你想移除这个信息，请编辑template/<?php echo $OJ_TEMPLATE?>/footer.php" >
             <div><?php echo $domain==$DOMAIN?$OJ_NAME:ucwords($OJ_NAME)."'s OJ"?> is powered by <a style="color: inherit !important;" class=" " title="GitHub"
                     target="_blank" rel="noreferrer noopener" href="https://github.com/noSugarK">HUE_ACM</a><br>
                  注册或问题请联系本站管理员QQ:895686378
