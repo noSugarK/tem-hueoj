@@ -16,7 +16,9 @@
 </head>
 
 <body>
-
+<!-- <center>
+<h4><?php echo $title?></h4>
+<center> -->
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
