@@ -29,9 +29,9 @@
  <form action=lostpassword2.php method=post>
 <center>
 <table algin=center>
+<h4>*<?php echo $MSG_LOSTPASSWORD_WILLBENEW ?></h4>
 <tr><td><?php echo $MSG_USER_ID?>:<td><input name="user_id" type="text" size=20></td></tr>
-<tr><td><?php echo $MSG_LOSTPASSWORD_MAILBOX ?>:<td><input name="lost_key" type="text" size=20>*
-        <?php echo $MSG_LOSTPASSWORD_WILLBENEW ?></td></tr>
+<tr><td><?php echo $MSG_LOSTPASSWORD_MAILBOX ?>:<td><input name="lost_key" type="text" size=20></td></tr>
 <?php // if($OJ_VCODE){
   ?>
 <tr><td><?php echo $MSG_VCODE?>:</td>
