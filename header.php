@@ -111,11 +111,11 @@
     <script src="<?php echo "$OJ_CDN_URL/include/"?>jquery-latest.js"></script>
 
 <!-- Scripts -->
-<script>
+<!-- <script>
     console.log('\n %c HUSTOJ %c https://github.com/zhblue/hustoj %c\n', 'color: #fadfa3; background: #000000; padding:5px 0;', 'background: #fadfa3; padding:5px 0;', '');
     console.log('\n %c Theme By %c Baoshuo ( @renbaoshuo ) %c https://baoshuo.ren %c\n', 'color: #fadfa3; background: #000000; padding:5px 0;', 'background: #fadfa3; padding:5px 0;', 'background: #ffbf33; padding:5px 0;', '');
     console.log('\n GitHub Homepage: https://github.com/zhblue/hustoj \n Document: https://zhblue.github.io/hustoj \n Bug report URL: https://github.com/zhblue/hustoj/issues \n \n%c ★ Please give us a star on GitHub! ★ %c \n', 'color: red;', '')
-</script>
+</script> -->
 </head>
 
 <?php
@@ -150,7 +150,7 @@
             <a class="item <?php if ($url=="category.php") echo "active";?>"
                 href="<?php echo $path_fix?>category.php"><i class="globe icon"></i><span class="desktop-only"><?php echo $MSG_SOURCE?></span></a>
             <!-- 竞赛/作业 -->
-            <a class="item <?php if ($url=="contest.php") echo "active";?>" href="<?php echo $path_fix?>contest.php<?php if(isset($_SESSION[$OJ_NAME."_user_id"])) echo "?my" ?>" ><i
+            <a class="item <?php if ($url=="contest.php") echo "active";?>" href="<?php echo $path_fix?>contest.php<?php //if(isset($_SESSION[$OJ_NAME."_user_id"])) echo "?my" ?>" ><i
                     class="trophy icon"></i><span class="desktop-only"> <?php echo $MSG_CONTEST?></span></a>
             <!-- 状态 -->
             <a class="item <?php if ($url=="status.php") echo "active";?>" href="<?php echo $path_fix?>status.php"><i
