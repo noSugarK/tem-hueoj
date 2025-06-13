@@ -59,6 +59,7 @@
                                 <option>sweet</option>
                                 <option>bshark</option>
                                 <option>sidebar</option>
+                                <option>hueoj</option>
                     </select>
                 </div>
 
